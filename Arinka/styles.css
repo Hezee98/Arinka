@@ -1,0 +1,303 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Catamaran', sans-serif;
+}
+
+/* hero section */
+
+#hero {
+  width: 100%;
+  height: 478px;
+  background: linear-gradient(180deg, #EB5757 0%, #D59152 100%);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 105px;
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.arinka-logo {
+  position: absolute;
+  width: 34.89px;
+  height: 40px;
+  left: 40px;
+  top: 15px;
+}
+
+.arinka-text {
+  position: absolute;
+  width: 56px;
+  height: 23px;
+  left: 89px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+
+.nav {
+  height: 17px;
+  width: 232px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-text {
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+
+.signin-button {
+  position: absolute;
+  width: 175px;
+  height: 45px;
+  left: 1226px;
+  top: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 25px;
+}
+
+.title {
+  position: absolute;
+  width: 800px;
+  height: 25px;
+  left: 384px;
+  top: 80px;
+  text-align: center;
+}
+
+.title-text {
+  padding: 40px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 68px;
+  color: #FFFFFF;
+}
+
+.searchBarButton {
+  position: absolute;
+  top: 440px;
+  left: 30%;
+  width: 600px;
+  height: 80px;
+  background: #FFFFFF;
+  border: 3px solid #F2994A;
+  box-sizing: border-box;
+  border-radius: 40px;
+  text-align: center;
+  color: #C3C0C0;
+}
+
+.searchBarText{
+  position: absolute;
+  top: 350px;
+  left: 35%;
+  width: 445px;
+  height: 40px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 39px;
+  color: #FFFFFF;
+}
+
+
+/* About Arinka section */
+
+#about-arinka {
+  width: 100%;
+  height: 1350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.about-arinkaTitleText {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.2em;
+  color: #C3C0C0;
+}
+
+.about-arinkaMainText {
+  width: 904px;
+  height: 180px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 39px;
+  text-align: center;
+  color: #000000;
+}
+
+.popular-locations {
+  margin-top: 100px;
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.BauchiMain {
+  position: absolute;
+  top: 1280px;
+  left: 160px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 52px;
+  color: #FFFFFF;
+}
+
+.BauchiText {
+  position: absolute;
+  top: 1330px;
+  left: 160px;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 18px;
+  line-height: 30px;
+  color: #D78E52;
+}
+
+.JosMain {
+  position: absolute;
+  top: 1280px;
+  left: 600px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 52px;
+  color: #FFFFFF;
+}
+
+.JosText {
+  position: absolute;
+  top: 1330px;
+  left: 600px;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 18px;
+  line-height: 30px;
+  color: #D78E52;
+}
+
+.AbujaMain {
+  position: absolute;
+  top: 1280px;
+  left: 1020px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 52px;
+  color: #FFFFFF;
+}
+
+.AbujaText {
+  position: absolute;
+  top: 1330px;
+  left: 1020px;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 18px;
+  line-height: 30px;
+  color: #D78E52;
+}
+
+.see-more-button {
+  margin-top: 80px;
+  height: 60px;
+  width: 200px;
+  border: 2px solid #E36F55;
+  box-sizing: border-box;
+  border-radius: 30px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 30px;
+  letter-spacing: 0.1em;
+  color: #E46F55;
+}
+
+/* blog */
+#blog {
+  height: 500px;
+  width: 1440px;
+  background: linear-gradient(180deg, #E36E55 0%, #D78F52 100%);
+  display: flex;
+  justify-content: flex-end;
+}
+
+.label {
+  position: absolute;
+  top: 1900px;
+  left: 200px;
+  width: 134px;
+  height: 30px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.1em;
+  color: #FEBE61;
+}
+
+.blogMainText {
+  position: absolute;
+  top: 1950px;
+  left: 200px;
+  width: 393px;
+  height: 154px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 77px;
+  color: #FFFFFF;
+  text-align: left;
+}
+
+.blogImage {
+  width: 60%;
+  transform: rotate(15deg);
+}
+
+
+/* Footer */
+#footer {
+  margin: 20px 50px 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 23px;
+  color: #A9A9A9;
+}
+
+.Terms {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 23px;
+  color: #A9A9A9;
+}
+
+.Copyright {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 23px;
+  color: #A9A9A9;
+}
